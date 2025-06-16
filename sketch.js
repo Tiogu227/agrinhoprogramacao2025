@@ -18,7 +18,7 @@ let correctOptionIndex = -1; // Armazena o índice da resposta correta
 
 function setup() {
 
-  createCanvas(600, 400);
+  let canvas = createCanvas(windowWidth, windowHeight);
 
   // Definição dos quizzes
 
